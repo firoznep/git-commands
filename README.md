@@ -1,9 +1,8 @@
+create empty .git directory
+	git init
 
-	create empty .git directory
-git init
-
-	watch if there any files with hidden
-ls -la
+watch if there any files with hidden
+	ls -la
 
 	create git/object
 echo " some text " | git hash-object stdin -w
