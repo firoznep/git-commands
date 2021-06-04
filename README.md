@@ -1,3 +1,7 @@
+to kill running port in ubuntu
+	sudo lsof -i :3000
+	kill -9 PID
+
 create empty .git directory
 
 	git init
