@@ -51,6 +51,11 @@ set user name and email
 	git config --global user.name <name>
 	git config --global user.email <email>
 	git config --list
+	
+remove user name and email
+
+	git config --global --unset user.name
+	git config --global --unset user.email
 
 check git status
 	
